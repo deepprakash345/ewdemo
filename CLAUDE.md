@@ -44,6 +44,7 @@ blocks/form/
 ├── rules-doc/                        — Legacy document-based rule engine (non-worker)
 ├── components/                       — Custom component decorators
 │   ├── accordion/
+│   ├── consent/                      — Custom consent checkbox (title + a11y)
 │   ├── file/
 │   ├── modal/
 │   ├── password/

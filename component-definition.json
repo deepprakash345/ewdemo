@@ -685,6 +685,23 @@
               }
             }
           }
+        },
+        {
+          "title": "Consent",
+          "id": "consent",
+          "plugins": {
+            "xwalk": {
+              "page": {
+                "resourceType": "core/fd/components/form/checkbox/v1/checkbox",
+                "template": {
+                  "jcr:title": "Consent",
+                  "fieldType": "checkbox",
+                  "checkedValue": "on",
+                  "fd:viewType": "consent"
+                }
+              }
+            }
+          }
         }
       ]
     }

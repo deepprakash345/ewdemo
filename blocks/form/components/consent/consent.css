@@ -1,0 +1,14 @@
+/* Consent component styles */
+main .form form .consent-wrapper > .consent-title {
+    flex-basis: 100%;
+    margin: 0;
+    font-size: var(--form-label-font-size);
+    font-weight: var(--form-fieldset-legend-font-weight);
+    color: var(--form-label-color);
+}
+
+main .form form .consent-wrapper[data-required="true"] > .consent-title::after {
+    content: "*";
+    color: var(--form-error-color);
+    padding-inline-start: 5px;
+}
