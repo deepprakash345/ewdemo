@@ -1,0 +1,68 @@
+/* Feedback component styles */
+main .form form fieldset.feedback-wrapper {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 0.75rem;
+}
+
+main .form form fieldset.feedback-wrapper > .field-description {
+    flex-basis: 100%;
+}
+
+main .form form fieldset.feedback-wrapper > .radio-wrapper {
+    position: relative;
+    flex: 0 0 auto;
+    margin: 0;
+}
+
+/* Keep the native radio focusable for keyboard and screen readers, but hide it visually */
+main .form form fieldset.feedback-wrapper > .radio-wrapper > input {
+    position: absolute;
+    opacity: 0;
+    width: 1px;
+    height: 1px;
+    margin: 0;
+}
+
+main .form form fieldset.feedback-wrapper > .radio-wrapper > label {
+    display: inline-flex;
+    flex-basis: auto;
+    align-items: center;
+    gap: 0.5rem;
+    margin: 0;
+    padding: var(--form-card-padding);
+    border: 1px solid var(--form-card-border-color);
+    border-radius: var(--form-card-border-radius);
+    background-color: var(--form-card-background);
+    box-shadow: var(--form-card-shadow);
+    transition: var(--form-card-transition);
+    color: var(--form-label-color);
+    cursor: pointer;
+}
+
+main .form form fieldset.feedback-wrapper > .radio-wrapper > label:hover {
+    box-shadow: var(--form-card-hover-shadow);
+}
+
+main .form form fieldset.feedback-wrapper .feedback-icon {
+    width: 1.5em;
+    height: 1.5em;
+    fill: currentcolor;
+}
+
+main .form form fieldset.feedback-wrapper > .feedback-down .feedback-icon {
+    transform: rotate(180deg);
+}
+
+main .form form fieldset.feedback-wrapper > .radio-wrapper > input:checked + label {
+    border-color: var(--form-card-selected-border-color);
+    background-color: var(--form-card-selected-background);
+    box-shadow: var(--form-card-selected-shadow);
+    color: var(--form-card-selected-border-color);
+    font-weight: 700;
+}
+
+main .form form fieldset.feedback-wrapper > .radio-wrapper > input:focus-visible + label {
+    outline: 2px solid var(--form-card-selected-border-color);
+    outline-offset: 2px;
+}

@@ -49,6 +49,7 @@ module.exports = {
       tnc: 12,
       range: 19,
       consent: 20,
+      feedback: 20,
     }],
     'xwalk/no-orphan-collapsible-fields': 'off', // Disable until enhancement is done for Forms properties
   },

@@ -45,6 +45,7 @@ blocks/form/
 ├── components/                       — Custom component decorators
 │   ├── accordion/
 │   ├── consent/                      — Custom consent checkbox (title + a11y)
+│   ├── feedback/                     — Thumbs up/down feedback (radio group)
 │   ├── file/
 │   ├── modal/
 │   ├── password/

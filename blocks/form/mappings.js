@@ -1,6 +1,6 @@
 import { loadCSS } from '../../scripts/aem.js';
 
-let customComponents = ['consent', 'range'];
+let customComponents = ['consent', 'feedback', 'range'];
 const OOTBComponentDecorators = ['accordion', 'file', 'modal', 'password', 'rating', 'repeat', 'tnc', 'toggleable-link', 'wizard'];
 
 export function setCustomComponents(components) {

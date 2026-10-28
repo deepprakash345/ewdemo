@@ -45,6 +45,9 @@
         },
         {
           "...": "../blocks/form/components/consent/_consent.json#/definitions"
+        },
+        {
+          "...": "../blocks/form/components/feedback/_feedback.json#/definitions"
         }
       ]
     }

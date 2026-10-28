@@ -702,6 +702,31 @@
               }
             }
           }
+        },
+        {
+          "title": "Feedback",
+          "id": "feedback",
+          "plugins": {
+            "xwalk": {
+              "page": {
+                "resourceType": "core/fd/components/form/radiobutton/v1/radiobutton",
+                "template": {
+                  "jcr:title": "Feedback",
+                  "fieldType": "radio-group",
+                  "enum": [
+                    "up",
+                    "down"
+                  ],
+                  "enumNames": [
+                    "Yes",
+                    "No"
+                  ],
+                  "orientation": "horizontal",
+                  "fd:viewType": "feedback"
+                }
+              }
+            }
+          }
         }
       ]
     }
